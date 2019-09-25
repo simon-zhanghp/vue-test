@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo02</title>
+    <script src="js/vuejs-2.5.16.js"></script>
+</head>
+<body>
+<div id="#app1">
+    {{message}}
+    {{number + 1}}
+    {{ok ? "yes":"true"}}
+
+</div>
+<script type="text/javascript">
+    new Vue({
+        el: '#app1',
+        data: {
+            message: 'hello world'
+        }
+    })
+</script>
+
+</body>
+</html>
